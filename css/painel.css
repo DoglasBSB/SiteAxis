@@ -1,0 +1,26 @@
+body {
+    background: url(../imgs/old_moon.png);   
+    padding-top: 80px;
+}
+
+.panel {
+    margin-bottom: 5px;
+}
+
+.social-share {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.social-share li a {
+    display: inline-block;
+    color: #C72020;
+    background: #404040;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 2px;
+}

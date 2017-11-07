@@ -1,0 +1,188 @@
+* {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+}
+
+body {
+padding-top: 40px;
+}
+
+section{
+	padding-top: 25px;
+	padding-bottom: 15px;
+	min-height: 100vh;	
+}
+
+.navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size:150%;	
+}
+
+.divslider{
+	padding-top:20px;
+	padding-bottom: 15px;
+	background: url(../imgs/bgslide2.jpg);
+}
+
+.div_colorida{
+	background: url(../imgs/bgslide2.jpg);
+}
+
+.page-header {
+    border-bottom: 1px solid #ccc;
+    margin: 40px 0 20px;
+    padding-bottom: 9px;
+}
+
+.img_center {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Serviços */
+.servicos_item * {
+	text-align: center;
+}
+
+.servicos_item h4 {
+	margin-top: 30px;
+}
+
+.servicos_btn {
+	margin-top: 25px;
+}
+
+/* Portifólio */
+.portifolio_item h4 {
+	text-align: center;
+	margin-top: 10px;
+	padding-bottom: 5px;
+}
+
+.portifolio_btn {
+	margin-top: 15px;
+}
+
+.contato textarea {
+	height: 150px;
+}
+
+
+
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: url(../imgs/bgslide2.jpg);
+
+}
+
+/*
+.portifolio_row {
+	margin-top: 20px; 
+	margin-bottom: 5px; 
+}
+
+.portifolio_ph {
+	margin-top: 15px; 
+	margin-bottom: 10px; 
+}
+
+.portifolio_row_btn {
+	margin-top: -10px; 
+	margin-bottom: -5px; 
+}*/
+
+
+/* Efeito nas imagens cinza/colorida */
+img.grayscale {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+  }
+  
+  img.grayscale:hover {
+	filter: none;
+	-webkit-filter: grayscale(0%);
+  }
+
+/* Carousel */
+}
+
+.carousel,.item,.active {
+height: 100%;
+height: 500px;
+}
+
+.item img{
+width: 100%;
+height: 300px;
+}
+
+a.left{
+box-shadow: 0px;
+}
+
+a.left:hover{
+box-shadow: 0px;
+}
+
+.carousel-inner {
+height: 100%;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;    
+}
+
+.carousel-indicators li {
+    border-color: #f4511e;/*cor da bolinhas*/
+}
+
+.carousel-indicators li.active {
+    background-color: #f4511e;
+}
+/* //Carousel */
+
+/*MUDARAS CORES DOS LINKS NO BOOTSTRAP.MIM.CSS */
+
+.form-login {
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-radius: 10px;
+	background: #eee;
+}
+.form-login input {
+	margin-bottom: 10px;
+}
+
+.conteudo_painel{
+	background: white;
+	border-radius: 8px;
+	border: 1px solid #eee;
+	box-shadow: 5px 5px 5px #666;
+}
+
+.conteudo_painel_int {
+	padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
