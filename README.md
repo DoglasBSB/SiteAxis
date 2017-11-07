@@ -1,2 +1,2 @@
 Projeto de um curso de bootstrap pela Devmedia
-Site eestático 
+Projeto de um site estático feito em bootstrap3 
