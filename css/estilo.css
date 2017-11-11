@@ -1,5 +1,5 @@
 * {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Ubuntu', sans-serif, 'Geostar Fill', cursive, 'Verdana';
 	font-weight: 400;
 }
 
@@ -10,13 +10,19 @@ padding-top: 40px;
 section{
 	padding-top: 25px;
 	padding-bottom: 15px;
-	min-height: 100vh;	
+	min-height: 100vh;
+}
+
+.navbar{
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 .navbar-brand{
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 700;
-	font-size:150%;	
+	font-family: 'Geostar Fill', Verdana ;
+	font-weight: 400;
+	font-size:180%;	
+
 }
 
 .divslider{
